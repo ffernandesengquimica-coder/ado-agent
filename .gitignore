@@ -16,4 +16,3 @@ RUN_LOG-*.md
 .venv/
 __pycache__/
 .pytest_cache/
-.claude/
