@@ -70,6 +70,7 @@ def _agente():
 
 def test_topo_escapa_e_selo_so_onde_usa_radar(monkeypatch):
     monkeypatch.setattr(painel_agente, "RADAR_APROVADO", False)
+    monkeypatch.setattr(painel_agente, "AGENTE_APROVADO", False)
     html = painel_agente.topo(_agente())
     assert "Epic #1 piorou &lt;b&gt;muito&lt;/b&gt;" in html and 'data-ir-epic="1"' in html
     assert html.count("previsão em validação</span>") == 1

@@ -18,8 +18,8 @@ from explicacao.validador import cita_radar
 
 # Radar validado (2026-11-21). False volta o aviso "modelo em validação" e o selo nos textos que usam a previsão.
 RADAR_APROVADO = True
-# Pauta, perguntas sugeridas e resumos: False mostra "em validação" até a revisão do apresentador (critério 12).
-AGENTE_APROVADO = False
+# Pauta, perguntas sugeridas e resumos: aprovados (2026-11-21). False volta o aviso "Textos do agente em validação".
+AGENTE_APROVADO = True
 
 SELO = '<span class="selo-ia" title="Usa a previsão do Radar, que ainda está em validação">previsão em validação</span>'
 
