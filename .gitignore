@@ -1,0 +1,19 @@
+# Credenciais
+.env
+
+# Dados reais do ADO e saídas com nomes de pessoas
+out/
+logs/
+relatorios/
+
+# Material interno
+Proposta.jpg
+
+# Registros de sessão (têm e-mail e respostas do usuário)
+RUN_LOG-*.md
+
+# Ambiente e caches
+.venv/
+__pycache__/
+.pytest_cache/
+.claude/

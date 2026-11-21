@@ -1,0 +1,30 @@
+﻿modelo_versao,data_previsao,epic_id,titulo,area,estado,responsavel,data_alvo,secao,prob_cumprir,p50,p85,escopo,concluidos,restante,ritmo_medio,entrada_media,razao_ritmo,motivos
+v3,2026-11-10,1625,Inspeção por foto,Atlas\Obras Sul\Time A,In Progress,Bruna Lima,2027-01-06,vermelho,,,,0,0,0,0.0,0.0,,data marcada sem nenhum item detalhado
+v3,2026-11-10,1369,Agendamento de docas,Atlas\Rede Norte\Time A,In Progress,Ana Souza,2026-12-08,vermelho,0.0,2027-06-15,2027-07-27,73,34,39,1.33,0.58,7.75,"precisa entregar 7,8× mais rápido"
+v3,2026-11-10,1498,Cadastro de equipamentos,Atlas\Obras Sul\Time A,In Progress,Bruna Lima,2026-12-17,vermelho,0.0,2027-07-20,2027-10-05,33,18,15,0.42,0.08,7.01,"precisa entregar 7,0× mais rápido; sem entregas há 5 semanas"
+v3,2026-11-10,2226,Camada de dados,Atlas\Plataforma Digital Base\Time A,In Progress,Gilda Reis,2026-12-17,vermelho,0.0,2027-04-27,2027-05-18,67,34,33,1.58,1.0,4.57,"precisa entregar 4,6× mais rápido; 1 Feature com data alvo vencida"
+v3,2026-11-10,1146,Rastreio de cargas,Atlas\Rede Norte\Time A,In Progress,Ana Souza,2026-12-22,vermelho,0.0,2027-03-30,2027-04-27,68,35,33,1.83,0.67,3.36,"precisa entregar 3,4× mais rápido"
+v3,2026-11-10,2698,Cadastro único de produtos,Atlas\Dados Mestres\Time A,In Progress,Mara Diniz,2026-12-22,vermelho,0.0,2027-03-16,2027-04-06,73,42,31,2.0,0.83,3.0,"precisa entregar 3,0× mais rápido"
+v3,2026-11-10,1764,Ordens de serviço móveis,Atlas\Obras Sul\Time B,In Progress,Bruna Lima,2026-12-25,vermelho,0.0,2027-03-30,2027-04-27,57,38,19,1.0,0.08,3.04,"precisa entregar 3,0× mais rápido"
+v3,2026-11-10,1629,Mapa de instalações,Atlas\Obras Sul\Time B,In Progress,,2026-12-27,vermelho,0.0,2027-06-15,2027-08-10,63,29,34,1.17,0.25,4.55,"precisa entregar 4,6× mais rápido; 19 de 34 itens restantes sem responsável"
+v3,2026-11-10,1902,Barramento de eventos,Atlas\Plataforma Digital Base\Time B,In Progress,Gilda Reis,2027-01-01,vermelho,0.0025,2027-02-09,2027-03-02,70,50,20,1.92,0.67,1.75,"precisa entregar 1,8× mais rápido"
+v3,2026-11-10,2047,Observabilidade,Atlas\Plataforma Digital Base\Time B,In Progress,Gilda Reis,2026-12-27,vermelho,0.2265,2027-01-05,2027-01-26,54,41,13,1.83,0.33,1.24,
+v3,2026-11-10,2297,Aplicativo do cliente,Atlas\Canais\Time B,In Progress,Joel Farias,2026-12-31,vermelho,0.2333,2027-01-12,2027-02-02,61,44,17,2.17,0.33,1.23,
+v3,2026-11-10,2962,Painéis executivos,Atlas\Dados Mestres\Time A,In Progress,Mara Diniz,2026-12-29,vermelho,0.2922,2027-01-12,2027-01-26,56,40,16,2.0,0.08,1.18,
+v3,2026-11-10,1984,Catálogo de APIs,Atlas\Plataforma Digital Base\Time A,In Progress,Gilda Reis,2026-12-29,vermelho,0.3547,2027-01-05,2027-01-19,59,42,17,2.25,0.08,1.12,
+v3,2026-11-10,2580,Chat de suporte,Atlas\Canais\Time B,In Progress,Joel Farias,2026-12-29,amarelo,0.4168,2027-01-05,2027-01-26,56,44,12,1.92,0.42,1.11,
+v3,2026-11-10,1082,Roteirização de entregas,Atlas\Rede Norte\Time B,In Progress,Ana Souza,2026-12-29,amarelo,0.4242,2027-01-05,2027-01-26,59,45,14,2.08,0.25,1.08,
+v3,2026-11-10,2909,Migração de legado,Atlas\Dados Mestres\Time B,In Progress,,2026-08-19,ja_atrasado,,,,49,27,22,0.33,0.42,,
+v3,2026-11-10,1447,Padrão de ativos,Atlas\Obras Sul\Time B,In Progress,Bruna Lima,2026-09-03,ja_atrasado,,,,46,33,13,0.83,0.42,,
+v3,2026-11-10,1218,Gestão de pátio,Atlas\Rede Norte\Time B,In Progress,Ana Souza,2026-10-28,ja_atrasado,,,,35,23,12,1.25,0.42,,
+v3,2026-11-10,2178,Gestão de acessos,Atlas\Plataforma Digital Base\Time B,In Progress,Gilda Reis,2026-11-07,ja_atrasado,,,,43,34,9,1.33,0.25,,
+v3,2026-11-10,2685,Pesquisa de satisfação,Atlas\Canais\Time B,In Progress,Joel Farias,2027-01-16,sem_como_prever,,,,9,0,9,0.0,0.75,,
+v3,2026-11-10,1257,Conferência por voz,Atlas\Rede Norte\Time A,In Progress,Ana Souza,,sem_como_prever,,,,53,41,12,1.83,0.33,,
+v3,2026-11-10,2438,Autoatendimento,Atlas\Canais\Time B,In Progress,Joel Farias,,sem_como_prever,,,,64,51,13,2.67,0.42,,
+v3,2026-11-10,2862,Glossário de negócio,Atlas\Dados Mestres\Time A,In Progress,Mara Diniz,,sem_como_prever,,,,43,30,13,1.25,0.17,,
+v3,2026-11-10,1001,Portal de pedidos,Atlas\Rede Norte\Time A,In Progress,Ana Souza,2026-12-29,verde,0.8402,2026-12-15,2027-01-05,77,65,12,2.42,0.08,0.74,
+v3,2026-11-10,2775,Qualidade de dados,Atlas\Dados Mestres\Time B,In Progress,Mara Diniz,2026-12-29,verde,0.8538,2026-12-15,2026-12-29,83,68,15,3.0,0.0,0.71,
+v3,2026-11-10,2506,Programa de fidelidade,Atlas\Canais\Time A,In Progress,Joel Farias,2026-12-29,verde,0.8718,2026-12-22,2026-12-29,70,59,11,2.75,0.83,0.87,
+v3,2026-11-10,2362,Central de notificações,Atlas\Canais\Time A,In Progress,Joel Farias,2026-12-29,verde,0.987,2026-12-08,2026-12-15,72,64,8,2.67,0.17,0.49,
+v3,2026-11-10,1537,Checklists de campo,Atlas\Obras Sul\Time B,In Progress,Bruna Lima,2026-12-29,verde,0.9907,2026-12-15,2026-12-22,84,71,13,3.25,0.42,0.7,
+v3,2026-11-10,1825,Login único,Atlas\Plataforma Digital Base\Time A,In Progress,Gilda Reis,2026-12-29,verde,0.9995,2026-12-08,2026-12-15,73,62,11,3.25,0.42,0.61,
