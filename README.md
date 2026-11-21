@@ -138,6 +138,5 @@ Nenhum teste acessa o ADO nem a OpenAI.
 
 ## Limitações
 
-- O Radar de Datas ainda está em validação: o painel mostra as previsões com o aviso "uso interno" até o teste prospectivo ser concluído.
 - A janela de ritmo e as datas de corte padrão do backtest (`radar/previsao.py`, `radar/__main__.py`) foram calibradas para um projeto específico. Ajuste-as antes de usar em outro.
 - A execução é manual. Não há agendamento nem histórico além dos arquivos em `relatorios/`.

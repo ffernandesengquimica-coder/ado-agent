@@ -16,12 +16,12 @@ from explicacao.fatos import CATEGORIA, CRITICIDADE, SECAO, _area, _data, _decim
 from explicacao.recortes import gravidade
 from explicacao.validador import cita_radar
 
-# A previsão do Radar só vai para a diretoria depois do teste de 28/12 (T8): até lá, texto que usou o Radar ganha selo.
-RADAR_APROVADO = False
+# Radar validado (2026-11-21). False volta o aviso "modelo em validação" e o selo nos textos que usam a previsão.
+RADAR_APROVADO = True
 # Pauta, perguntas sugeridas e resumos: False mostra "em validação" até a revisão do apresentador (critério 12).
 AGENTE_APROVADO = False
 
-SELO = '<span class="selo-ia" title="Usa a previsão do Radar, que está em teste até 28/12/2026">previsão em validação</span>'
+SELO = '<span class="selo-ia" title="Usa a previsão do Radar, que ainda está em validação">previsão em validação</span>'
 
 
 @dataclass

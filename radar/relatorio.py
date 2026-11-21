@@ -398,6 +398,11 @@ def faixa_de(hoje: date):
     return lambda l: _faixa_mes(l["data_alvo"], hoje)
 
 
+# Só aparece com painel_agente.RADAR_APROVADO = False.
+_AVISO_VALIDACAO = ('<div class="aviso"><b>Uso interno — modelo em validação.</b> No backtest, 71% dos Epics marcados '
+                    'como "vão atrasar" atrasaram de fato (a média geral é 57%).</div>')
+
+
 def gerar_html(linhas: list[dict], hoje: date, extracao: str, narrador: Narrador = NarradorNulo(),
                riscos_html: str = "", agente: "painel_agente.Agente | None" = None) -> str:
     """Painel semanal. Com `riscos_html` (a aba gerada por `riscos.painel`), ganha as abas Radar | Riscos;
@@ -420,9 +425,7 @@ def gerar_html(linhas: list[dict], hoje: date, extracao: str, narrador: Narrador
 {painel_agente.topo(agente) if agente else ""}
 {abas}
 <section class="painel" id="aba-radar" role="tabpanel" data-unidade="Epics">
-<div class="aviso"><b>Uso interno — modelo em validação.</b> No backtest, 71% dos Epics marcados como
-"vão atrasar" atrasaram de fato (a média geral é 57%). O modelo só vai para a diretoria depois do teste
-com dados futuros, em 28/12/2026.</div>
+{"" if painel_agente.RADAR_APROVADO else _AVISO_VALIDACAO}
 {_kpis(por_secao)}
 {painel_agente.caixa_leitura("radar") if agente else ""}
 <p class="sub reconc">{len(linhas)} Epics abertos = {reconciliacao}</p>

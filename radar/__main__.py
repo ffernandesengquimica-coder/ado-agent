@@ -124,7 +124,8 @@ def _relatorio(args) -> None:
 
     contagem = Counter(l["secao"] for l in linhas)
     partes = " + ".join(f"{s} {contagem[s]}" for s in relatorio.ORDEM_SECOES)
-    print(f"Extração: {pasta}  |  hoje: {args.hoje}  |  modelo {MODELO_VERSAO} (uso interno)")
+    print(f"Extração: {pasta}  |  hoje: {args.hoje}  |  modelo {MODELO_VERSAO}"
+          + ("" if painel_agente.RADAR_APROVADO else " (uso interno)"))
     print(f"{len(linhas)} Epics abertos = {partes}")
     escalar = {r.epic_id for r in riscos if r.gatilhos}
     print(f"Riscos: {len(riscos)} em {len({r.epic_id for r in riscos})} Epics; Escalar: {len(escalar)} Epics"

@@ -2,7 +2,7 @@
 
 > Origem: [docs/ideas/radar-de-datas.md](docs/ideas/radar-de-datas.md) · Sessão: RUN_LOG-Felipe-2026-11-04-21-40.md
 > Status: **v3 — aprovada em 2026-11-04, modelo congelado para teste prospectivo** (ver "Histórico de versões" no fim)
-> ⚠️ **Relatório só para uso interno** até o teste prospectivo passar no portão.
+> ✅ **Radar validado em 2026-11-21** (`RADAR_APROVADO = True`): o aviso "uso interno" saiu do painel. As menções a "uso interno" e ao teste de 28/12 abaixo descrevem o portão como foi planejado.
 
 ## Objective
 

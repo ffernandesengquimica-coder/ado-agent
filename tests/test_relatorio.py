@@ -63,7 +63,11 @@ def _html(extracao, narrador=None):
     return gerar_html(linhas, HOJE, "20261105T003131Z", **kwargs), linhas
 
 
-def test_html_tem_aviso_de_uso_interno_e_reconciliacao(extracao):
+def test_html_tem_aviso_de_uso_interno_e_reconciliacao(extracao, monkeypatch):
+    from radar import painel_agente
+    monkeypatch.setattr(painel_agente, "RADAR_APROVADO", True)
+    assert "Uso interno" not in _html(extracao)[0]
+    monkeypatch.setattr(painel_agente, "RADAR_APROVADO", False)
     html, _ = _html(extracao)
     assert "Uso interno" in html and "v3" in html
     assert "5 Epics abertos" in html
